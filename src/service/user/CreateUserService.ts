@@ -1,6 +1,6 @@
 import { IUserRequest } from "../../interface/IUserRequest";
 import { hash } from "bcryptjs";
-import { UsersRepositories } from "../../repository/usersRepositories";
+import { UsersRepositories } from "../../repository/UsersRepositories";
 import { getCustomRepository } from "typeorm";
 
 class CreateUserService {

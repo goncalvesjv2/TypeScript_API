@@ -1,6 +1,6 @@
 import { ICategoryRequest } from "../../interface/ICategoryRequest";
 import { getCustomRepository } from "typeorm";
-import { CategoriesRepositories } from "../../repository/categoriesRepositories";
+import { CategoriesRepositories } from "../../repository/CategoriesRepositories";
 
 class CreateCategoryService {
     async execute({name, description}: ICategoryRequest){

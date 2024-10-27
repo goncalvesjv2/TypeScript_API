@@ -1,6 +1,6 @@
 import { getCustomRepository } from "typeorm";
 import { IClientRequest } from "../../interface/IClientRequest";
-import { ClientsRepositories } from "../../repository/clientsRepositories";
+import { ClientsRepositories } from "../../repository/ClientsRepositories";
 
 class CreateClientService{
     async execute({name, description, cpf, address, fone}: IClientRequest){

@@ -1,6 +1,6 @@
 import { getCustomRepository } from "typeorm";
 import { ISaleRequest } from "../../interface/ISaleRequest";
-import { SalesRepositories } from "../../repository/salesRepositories";
+import { SalesRepositories } from "../../repository/SalesRepositories";
 
 class CreateSaleService {
     async execute({userId, productId, clientId, quantity}: ISaleRequest){
